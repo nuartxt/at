@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/84a956b0a4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="zaHjiRiprTSkbeN70SneZZdaEJ586m3xmdCUGRl90jY2at4yr1Oz7Jwj9phFdYv5bbdKoztfhBPwJNGzpZbypxuS.jpg" width="50px" height="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Гдавная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Товары</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" aria-current="page"
+                        href="#"><i style="font-size: 20px;" class="fa-regular fa-user"></i></a>
+                    <ul class="dropdown-menu  dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-right-to-bracket"></i>Авторизоваться</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-registered"></i>Зарегестрироваться</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-xmark"></i>Выйти</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link active" aria-current="page" href="#"><i style="font-size: 20px;"
+                            class="fa-solid fa-cart-shopping"></i></a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ...
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                      <button type="button" class="btn btn-primary">Сохранить</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active" aria-current="page" href="#"><i style="font-size: 20px;"
+                        class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carouselExample" class="carousel slide" style="height: 90vh;">
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <img style="height: 90vh;" src="https://gas-kvas.com/uploads/posts/2023-02/1675495569_gas-kvas-com-p-luchshie-kartinki-dlya-fonovogo-risunka-ra-31.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img style="height: 90vh;" src="https://w.forfun.com/fetch/4a/4af0bcc2b0c34fd573eca9f1be9ab245.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img style="height: 90vh;" src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666206241_12-mykaleidoscope-ru-p-kartinka-na-zastavku-oboi-12.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  </body>
+</html>
